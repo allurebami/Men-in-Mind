@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="128" viewBox="0 0 560 128" role="img" aria-labelledby="title desc">
+  <title id="title">Men in Mind</title>
+  <desc id="desc">Logo Men in Mind : un espace pour parler du bien-être mental des hommes.</desc>
+  <rect x="4" y="4" width="120" height="120" rx="34" fill="#07384a"/>
+  <path d="M30 88V39h13l21 27 21-27h13v49H83V61L64 84 45 61v27H30Z" fill="#fff"/>
+  <circle cx="101" cy="33" r="8" fill="#51d284"/>
+  <text x="148" y="61" fill="#07384a" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900" letter-spacing="2">MEN IN</text>
+  <text x="148" y="103" fill="#159653" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900" letter-spacing="2">MIND</text>
+</svg>
