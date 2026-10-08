@@ -6,6 +6,6 @@ Jeu de facilitation bilingue (français / anglais) autour du bien-être mental d
 
 Ouvrir `index.html` dans un navigateur. La langue suit automatiquement la préférence du navigateur (français ou anglais) et peut être changée avec le sélecteur.
 
-## Déployer avec GitHub Pages
+## Déployer sur Vercel
 
-Le workflow `.github/workflows/pages.yml` publie automatiquement le site sur GitHub Pages après activation de Pages avec la source **GitHub Actions** dans les paramètres du dépôt.
+Importer le dépôt GitHub `allurebami/Men-in-Mind` dans Vercel. Le projet est un site statique : sélectionner **Other** comme framework et conserver la racine du dépôt comme répertoire du projet. Aucun build command ni output directory n’est nécessaire.
