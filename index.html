@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07384a"><meta name="description" content="Men in Mind : activités pratiques pour parler du bien-être mental des hommes.">
+<title>Men in Mind — Le jeu qui ouvre la parole</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+<header class="top"><div class="brand"><div class="mark">M<span>i</span>M</div><span>MEN IN MIND</span></div><label class="sr" for="language">Language / Langue</label><select class="lang" id="language" aria-label="Language / Langue"><option value="fr">Français</option><option value="en">English</option></select></header>
+<main>
+<section id="home" class="screen active">
+<div class="hero"><div><div class="eyebrow" data-i="eyebrow">Un espace pour parler autrement</div><h1>Men in <em>Mind</em></h1><p class="lead" data-i="lead">Des situations concrètes, des échanges sans jugement et des pistes utiles pour prendre soin de son bien-être mental.</p><div class="actions"><button class="btn primary" id="start" data-i="start">Commencer l’activité</button><button class="btn secondary" id="how" data-i="how">Comment ça marche ?</button></div></div><aside class="hero-card"><span class="pill" data-i="format">ACTIVITÉ GUIDÉE · SANS SCORE</span><div><h2 data-i="heroTitle">On avance en parlant, pas en se jugeant.</h2><p data-i="heroText">Choisissez un thème. Le coach anime l’échange et apporte des repères après chaque situation.</p></div></aside></div>
+<div class="section-head"><h2 data-i="themesTitle">Choisir un thème pratique</h2><p data-i="themesSub">Chaque thème part d’une situation de la vie quotidienne.</p></div><div class="grid" id="themes"></div>
+<div class="note"><strong data-i="safeTitle">Un cadre bienveillant :</strong> <span data-i="safeText">chacun peut participer à son rythme, passer une question ou écouter. Les réponses ne sont ni enregistrées ni notées.</span></div>
+<div class="footer" data-i="footer">Men in Mind · Un support d’animation pour la séance</div>
+</section>
+<section id="activity" class="screen"><div class="game-top"><button class="back" id="back">← <span data-i="back">Thèmes</span></button><div class="step" id="step"></div></div><article class="panel" id="activityPanel"></article><div class="game-nav"><div class="dots" id="dots"></div><button class="btn primary" id="next" data-i="next">Suivant</button></div></section>
+<section id="finish" class="screen"><article class="panel complete"><div class="mark">M<span>i</span>M</div><div class="eyebrow" data-i="doneEyebrow">Merci pour cet échange</div><h2 data-i="doneTitle">La conversation peut continuer après le jeu.</h2><p data-i="doneText">Invitez chacun à retenir une action simple : écouter un proche, exprimer un besoin ou demander du soutien. Le coach peut ouvrir un temps de questions et rappeler les ressources d’aide disponibles.</p><button class="btn primary" id="restart" data-i="restart">Revenir aux thèmes</button></article></section>
+</main></div>
+<script src="script.js"></script>
+</body></html>
